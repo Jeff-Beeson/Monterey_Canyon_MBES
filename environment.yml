@@ -1,0 +1,14 @@
+name: monterey-canyon-mbes
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pyproj
+  - pip
+  - pip:
+    - python-dotenv
+    - -e /home/beesonj/projects/mbes-tools
+    - -e .

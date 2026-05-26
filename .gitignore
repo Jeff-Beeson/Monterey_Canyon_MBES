@@ -1,0 +1,20 @@
+# Environment and secrets
+.env
+
+# Survey data — large binary files, never committed
+DPDK027/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# Outputs (large CSVs and grids stay local)
+*.csv
+*.asc
+*.tif
+*.tiff
