@@ -4,6 +4,9 @@
 # Survey data — large binary files, never committed
 DPDK027/
 
+# Archived provenance: original working scripts, vendored viewer, notebooks
+archive/
+
 # Python
 __pycache__/
 *.py[cod]
